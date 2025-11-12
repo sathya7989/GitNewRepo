@@ -4,6 +4,7 @@ import com.sathya.newbranch.AddUpiPayment;
 import com.sathya.service.Config;
 
 import appConfig.Caluculations;
+import netBanking.NetBanking;
 
 public class Main 
 {
@@ -23,6 +24,9 @@ public class Main
 		 String msg=ap.Transaction(7989245527d, 470000d, " sadhiya");
 		
 		System.out.println(msg);
+		NetBanking nb=new NetBanking();
+		System.out.println(nb.netbanking(300000d, 3000));
+		
 
 	}
 }
