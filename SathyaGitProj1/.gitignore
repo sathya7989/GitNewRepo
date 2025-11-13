@@ -1,0 +1,41 @@
+# Ignore Eclipse and STS project files
+.settings/
+.metadata/
+.apt_generated/
+.factorypath
+.springBeans
+
+# Ignore build output directories
+/bin/
+/target/
+/build/
+
+# Ignore Maven wrapper logs
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Ignore IntelliJ IDEA project files (if opened there)
+.idea/
+*.iml
+out/
+
+# Ignore VS Code settings (if opened there)
+.vscode/
+
+# Ignore dependency caches
+dependency-reduced-pom.xml
+
+# Ignore test reports or generated files
+surefire-reports/
+test-output/
+logs/
